@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Self
 
-from event_log import EventSeverity
+from event_log.severity import EventSeverity
 
 
 @dataclass(frozen=True)

@@ -1,6 +1,6 @@
 import csv
 
-from event_log import Event
+from event_log.event import Event
 
 
 def load_events(path):
