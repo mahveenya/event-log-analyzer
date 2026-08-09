@@ -1,9 +1,9 @@
-from event_log import EventSeverity
+from event_log import EventSeverity, Event
 from collections import Counter
 
 
 class EventLog:
-    def __init__(self, events):
+    def __init__(self, events: list[Event]):
         self._events = events
 
     def filter_by_severity(self, min_severity: EventSeverity) -> "EventLog":
@@ -21,3 +21,7 @@ class EventLog:
             return 0.0
         error_count = sum(1 for e in self._events if e.severity == EventSeverity.ERROR)
         return error_count / len(self._events)
+
+    @property
+    def events(self) -> list[Event]:
+        return list(self._events)
