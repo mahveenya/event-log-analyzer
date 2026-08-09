@@ -117,6 +117,21 @@ class LoadEventsTests(unittest.TestCase):
         self.assertIsNone(events[0].object_id)
         self.assertIsNone(events[0].raw)
 
+    def test_absent_optional_column_does_not_raise(self):
+        columns_without_remedy = [c for c in COLUMNS if c != "Remedy"]
+        header = "\t".join(columns_without_remedy)
+
+        full_row = tsv_row(Severity="Info")
+        values = dict(zip(COLUMNS, full_row.split("\t")))
+        row = "\t".join(values[c] for c in columns_without_remedy)
+
+        content = "\n".join([header, row])
+
+        events = load_events(self._write(content))
+
+        self.assertEqual(len(events), 1)
+        self.assertIsNone(events[0].remedy)
+
     def test_row_too_short_to_reach_severity_raises(self):
         content = "\n".join([HEADER, "1\t2026-01-01 00:00:00"])
 
