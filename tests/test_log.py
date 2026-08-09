@@ -32,7 +32,7 @@ class FilterBySeverityTests(unittest.TestCase):
 
         self.assertIsInstance(result, EventLog)
         self.assertEqual(
-            [e.severity for e in result._events],
+            [e.severity for e in result.events],
             [EventSeverity.WARNING, EventSeverity.ERROR],
         )
 
@@ -43,12 +43,12 @@ class FilterBySeverityTests(unittest.TestCase):
         ]
         log = EventLog(events)
 
-        self.assertEqual(len(log.filter_by_severity(EventSeverity.INFO)._events), 2)
+        self.assertEqual(len(log.filter_by_severity(EventSeverity.INFO).events), 2)
 
     def test_empty_log_returns_empty(self):
         result = EventLog([]).filter_by_severity(EventSeverity.INFO)
 
-        self.assertEqual(result._events, [])
+        self.assertEqual(result.events, [])
 
 
 class CountByObjectTests(unittest.TestCase):
