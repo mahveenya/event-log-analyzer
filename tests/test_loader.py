@@ -117,6 +117,31 @@ class LoadEventsTests(unittest.TestCase):
         self.assertIsNone(events[0].object_id)
         self.assertIsNone(events[0].raw)
 
+    def test_row_too_short_to_reach_severity_raises(self):
+        content = "\n".join([HEADER, "1\t2026-01-01 00:00:00"])
+
+        with self.assertRaises(ValueError):
+            load_events(self._write(content))
+
+    def test_invalid_severity_value_raises(self):
+        content = "\n".join([HEADER, tsv_row(Severity="Critical")])
+
+        with self.assertRaises(ValueError):
+            load_events(self._write(content))
+
+    def test_missing_required_column_raises(self):
+        columns_without_object_name = [c for c in COLUMNS if c != "Object name"]
+        header = "\t".join(columns_without_object_name)
+
+        full_row = tsv_row(Severity="Info")
+        values = dict(zip(COLUMNS, full_row.split("\t")))
+        row = "\t".join(values[c] for c in columns_without_object_name)
+
+        content = "\n".join([header, row])
+
+        with self.assertRaises(KeyError):
+            load_events(self._write(content))
+
 
 if __name__ == "__main__":
     unittest.main()
