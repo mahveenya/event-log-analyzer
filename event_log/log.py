@@ -1,5 +1,6 @@
-from event_log import EventSeverity, Event
 from collections import Counter
+
+from event_log import Event, EventSeverity
 
 
 class EventLog:
