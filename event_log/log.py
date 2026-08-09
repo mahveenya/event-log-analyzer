@@ -13,5 +13,8 @@ class EventLog:
         return Counter(event.object_name for event in self._events)
 
     @property
-    def error_rate(self):
-        pass  # TODO
+    def error_rate(self) -> float:
+        if not self._events:
+            return 0.0
+        error_count = sum(1 for e in self._events if e.severity == EventSeverity.ERROR)
+        return error_count / len(self._events)
