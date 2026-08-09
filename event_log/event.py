@@ -4,7 +4,7 @@ from typing import Self
 from event_log import EventSeverity
 
 
-@dataclass
+@dataclass(frozen=True)
 class Event:
     event_number: str
     timestamp: str
