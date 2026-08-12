@@ -1,0 +1,282 @@
+sep=	
+Event number	Timestamp	Severity	Object name	Object ID	Event ID	Event name	Description	Remedy	Readable	Raw
+10488	2000-01-01 00:00:01	Info	BOOT	63	0	VERSION	Boot starting - product firmware version	Information only		44 45 4d 4f 2d 76 31 2e 30 2e 30 2d 61 31 62 32 63 33 64 34 65 35
+10489	2000-01-01 00:00:01	Info	BOOT	63	2	RESET_FLAG	Boot flags	Information only		03
+10490	2000-01-01 00:00:01	Info	OSPERF	110	1	TRACE	Task trace	Information only		45 6d 70 74 79 20 74 72 61 63 65 00
+10491	2000-01-01 00:00:05	Info	BATTERY	10	25	BOOT_VOLTAGE	Battery voltage at boot	Information only		00 00 00 00
+10492	2000-01-01 00:00:06	Info	SENSOR	128	3	SENSOR_TYPE_CHANGED	Discovered connected sensor head type changed	Information only		01
+10493	2000-01-01 00:00:06	Info	SENSOR	128	8	SENSOR_VERSION	Attached sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10494	2000-01-01 00:00:06	Info	SENSOR	128	9	CONFIGURED_SENSOR_VERSION	Product firmware sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10495	2000-01-01 00:00:06	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		00 00 20 10
+10496	2000-01-01 00:00:06	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 00 00 00 41 00 00 20 51
+10497	2000-01-01 00:00:00	Info	DEVICE_RESET	222	12					
+10498	2000-01-01 00:00:07	Info	RADIO_APP	144	8	RADIO_VARIANT	Radio variant used in this product	Information only		01
+10499	2000-01-01 00:00:01	Warning	DEVICE_STATUS_SET	202	56	RTC_NOT_VALID	HART cmd48 bit: REAL_TIME_CLOCK_NOT_VALID			
+10500	2000-01-01 00:00:01	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 00 00 00 00 20 10
+10501	2000-01-01 00:00:09	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10502	2000-01-01 00:00:09	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10503	2000-01-01 00:00:09	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10504	2000-01-01 00:00:09	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10505	2000-01-01 00:00:09	Info
+10506	2000-01-01 00:00:09	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10507	2000-01-01 00:00:09	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10508	2000-01-01 00:00:09	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10509	2000-01-01 00:00:09	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10510	2000-01-01 00:00:09	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10511	2000-01-01 00:00:09	Warning	RADIO_APP	144	30	UNEXPECTED_TAG_NAME	Tag name is not as expected	Information only		
+10512	2000-01-01 00:00:09	Warning	RADIO_APP	144	29	UNEXPECTED_NETWORK_ID	Network ID is not as expected	Information only		
+10513	2000-01-01 00:00:15	Error	BLUETOOTH	134	11	OPEN_SERVICE_FAILED	Internal error in Bluetooth driver	Attempt device restart		fb ff ff ff
+10514	2000-01-01 00:00:15	Error	BLUETOOTH	134	8	OPEN_FAILED	Internal error in Bluetooth driver	Attempt device restart		fb ff ff ff
+10515	2000-01-01 00:00:15	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		86 00 00 00 00 00 20 51 00 00 20 d9
+10516	2000-01-01 00:00:15	Info	BOOT	63	8	BOOT_MASK	Boot completed	Information only		09 00 00 00
+10517	2000-01-01 00:00:15	Error	BOOT	63	1	BOOT_FAILURE	Boot failure	Attempt device restart		
+10518	2000-01-01 00:00:29	Info	BOOT	63	0	VERSION	Boot starting - product firmware version	Information only		44 45 4d 4f 2d 76 31 2e 30 2e 30 2d 61 31 62 32 63 33 64 34 65 35
+10519	2000-01-01 00:00:29	Info	BOOT	63	2	RESET_FLAG	Boot flags	Information only		05
+10520	2000-01-01 00:00:29	Info	OSPERF	110	1	TRACE	Task trace	Information only		73 74 61 72 74 75 70 5f 74 61 73 6b 2c 20 73 74 61 72 74 75 70 5f 74 61 73 6b 2c 20 49 44 4c 45 2c 20 73 74 61 72 74 75 70
+10521	2000-01-01 00:00:29	Info	OSPERF	110	1	TRACE	Task trace	Information only		5f 74 61 73 6b 2c 20 49 44 4c 45 2c 20 68 6d 69 2c 20 49 44 4c 45 2c 20 64 65 62 75 67 5f 74 78 2c 20 49 44 4c 45 2c 20 73
+10522	2000-01-01 00:00:29	Info	OSPERF	110	1	TRACE	Task trace	Information only		74 61 72 74 75 70 5f 74 61 73 6b 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+10523	2000-01-01 00:00:33	Info	BATTERY	10	25	BOOT_VOLTAGE	Battery voltage at boot	Information only		00 00 00 00
+10524	2000-01-01 00:00:34	Info	SENSOR	128	3	SENSOR_TYPE_CHANGED	Discovered connected sensor head type changed	Information only		01
+10525	2000-01-01 00:00:34	Info	SENSOR	128	8	SENSOR_VERSION	Attached sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10526	2000-01-01 00:00:34	Info	SENSOR	128	9	CONFIGURED_SENSOR_VERSION	Product firmware sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10527	2000-01-01 00:00:35	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		40 00 00 20
+10528	2000-01-01 00:00:35	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 00 00 00 41 40 00 00 61
+10529	2000-01-01 00:00:10	Warning	DEVICE_STATUS_CLEAR	203	56	RTC_NOT_VALID	HART cmd48 bit: REAL_TIME_CLOCK_NOT_VALID			
+ERR-10530	2000-01-01 00:00:35	Info	RADIO_APP	144	8	RADIO_VARIANT	Radio variant used in this product	Information only		01
+10531	2000-01-01 00:00:10	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 20 10 00 00 00 00
+10532	2000-01-01 00:00:18	Warning	CHANNEL_STATUS_SET	200	48	WARMUP1	HART cmd48 bit: WARMUP1			
+10533	2000-01-01 00:00:18	Warning	CHANNEL_STATUS_SET	200	49	WARMUP2	HART cmd48 bit: SENSOR_WARMUP			
+10534	2000-01-01 00:00:37	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10535	2000-01-01 00:00:37	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10536	2000-01-01 00:00:37	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10537	2000-01-01 00:00:37	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10538	2000-01-01 00:00:37	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10539	2000-01-01 00:00:37	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10540	2000-01-01 00:00:37	Info	RADIO_APP	144	10	SET_TAG	Žymė nustatyta klaidingai	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10541	2000-01-01 00:00:37	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10542	2000-01-01 00:00:37	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10543	2000-01-01 00:00:37	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10544	2000-01-01 00:00:37	Warning	RADIO_APP	144	30	UNEXPECTED_TAG_NAME	Tag name is not as expected	Information only		
+10545	2000-01-01 00:00:37	Warning	RADIO_APP	144	29	UNEXPECTED_NETWORK_ID	Network ID is not as expected	Information only		
+10546	2000-01-01 00:00:43	Error	BLUETOOTH	134	11	OPEN_SERVICE_FAILED	Internal error in Bluetooth driver	Attempt device restart		fb ff ff ff
+10547	2000-01-01 00:00:43	Error	BLUETOOTH	134	8	OPEN_FAILED	Internal error in Bluetooth driver	Attempt device restart		fb ff ff ff
+10548	2000-01-01 00:00:43	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		86 00 00 00 40 00 00 61 40 00 00 e9
+10549	2000-01-01 00:00:43	Info	BOOT	63	8	BOOT_MASK	Boot completed	Information only		09 00 00 00
+10550	2000-01-01 00:00:43	Error	BOOT	63	1	BOOT_FAILURE	Boot failure	Attempt device restart		
+10551	2000-01-01 00:00:43	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10552	2000-01-01 00:00:44	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		00
+10553	2000-01-01 00:00:44	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10554	2000-01-01 00:00:44	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		00
+10555	2000-01-01 00:00:45	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10556	2000-01-01 00:00:45	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10557	2000-01-01 00:00:45	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10558	2000-01-01 00:00:45	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10559	2000-01-01 00:00:45	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10560	2000-01-01 00:00:45	Notice	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10561	2000-01-01 00:00:45	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10562	2000-01-01 00:00:45	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10563	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10564	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10565	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10566	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10567	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10568	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10569	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10570	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10571	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10572	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10573	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10574	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10575	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10576	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10577	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10578	2000-01-01 00:00:46	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10579	2000-01-01 00:00:46	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10580	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10581	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10582	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10583	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10584	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10585	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		zz zz not-hex
+10586	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10587	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10588	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10589	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10590	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10591	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10592	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10593	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10594	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10595	2000-01-01 00:00:47	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10596	2000-01-01 00:00:47	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10597	2000-01-01 00:00:48	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10598	2000-01-01 00:00:48	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10599	2000-01-01 00:00:48	Warning	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		05
+10600	2000-01-01 00:00:48	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10601	2000-01-01 00:00:18	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 00 00 40 00 00 20
+10602	2000-01-01 00:20:35	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		00 00 00 00
+10603	2000-01-01 00:20:35	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 40 00 00 e9 00 00 00 c9
+10604	2000-01-01 00:20:17	Warning	CHANNEL_STATUS_CLEAR	201	48	WARMUP1	HART cmd48 bit: WARMUP1			
+10605	2000-01-01 00:20:17	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 40 00 00 20 00 00 00 00
+10606	2000-01-01 00:00:01	Info	BOOT	63	0	VERSION	Boot starting - product firmware version	Information only		44 45 4d 4f 2d 76 31 2e 30 2e 30 2d 61 31 62 32 63 33 64 34 65 35
+10607	2000-01-01 00:00:01	Info	BOOT	63	2	RESET_FLAG	Boot flags	Information only		03
+10608	2000-01-01 00:00:01	Info	OSPERF	110	1	TRACE	Task trace	Information only		45 6d 70 74 79 20 74 72 61 63 65 00
+10609	2000-01-01 00:00:05	Info	BATTERY	10	25	BOOT_VOLTAGE	Battery voltage at boot	Information only		00 00 00 00
+10610	2000-01-01 00:00:06	Info	SENSOR	128	3	SENSOR_TYPE_CHANGED	Discovered connected sensor head type changed	Information only		01
+10611	2000-01-01 00:00:06	Info	SENSOR	128	8	SENSOR_VERSION	Attached sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10612	2000-01-01 00:00:06	Info	SENSOR	128	9	CONFIGURED_SENSOR_VERSION	Product firmware sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10613	2000-01-01 00:00:06	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		00 00 20 10
+10614	2000-01-01 00:00:06	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 00 00 00 41 00 00 20 51
+10615	2000-01-01 00:00:00	Info	DEVICE_RESET	222	12					
+10616	2000-01-01 00:00:07	Info	RADIO_APP	144	8	RADIO_VARIANT	Radio variant used in this product	Information only		01
+10617	2000-01-01 00:00:01	Warning	DEVICE_STATUS_SET	202	56	RTC_NOT_VALID	HART cmd48 bit: REAL_TIME_CLOCK_NOT_VALID			
+10618	2000-01-01 00:00:01	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 00 00 00 00 20 10
+10619	2000-01-01 00:00:08	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10620	2000-01-01 00:00:08	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10621	2000-01-01 00:00:09	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10622	2000-01-01 00:00:09	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10623	2000-01-01 00:00:09	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10624	2000-01-01 00:00:09	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+
+10626	2000-01-01 00:00:09	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10627	2000-01-01 00:00:09	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10628	2000-01-01 00:00:09	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10629	2000-01-01 00:00:09	Warning	RADIO_APP	144	30	UNEXPECTED_TAG_NAME	Tag name is not as expected	Information only		
+10630	2000-01-01 00:00:09	Warning	RADIO_APP	144	29	UNEXPECTED_NETWORK_ID	Network ID is not as expected	Information only		
+10631	2000-01-01 00:00:24	Info	BOOT	63	8	BOOT_MASK	Boot completed	Information only		00 00 00 00
+10632	2000-01-01 00:00:24	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		3f 00 00 00 00 00 20 51 00 00 20 10
+10633	2000-01-01 00:00:25	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10634	2000-01-01 00:00:01	Info	BOOT	63	0	VERSION	Boot starting - product firmware version	Information only		44 45 4d 4f 2d 76 31 2e 30 2e 30 2d 61 31 62 32 63 33 64 34 65 35
+10635	2000-01-01 00:00:01	Info	BOOT	63	2	RESET_FLAG	Boot flags	Information only		03
+10636	2000-01-01 00:00:01	Info	OSPERF	110	1	TRACE	Task trace	Information only		45 6d 70 74 79 20 74 72 61 63 65 00
+10637	2000-01-01 00:00:05	Info	BATTERY	10	25	BOOT_VOLTAGE	Battery voltage at boot	Information only		00 00 00 00
+10638	2000-01-01 00:00:06	Info	SENSOR	128	3	SENSOR_TYPE_CHANGED	Discovered connected sensor head type changed	Information only		01
+10639	2000-01-01 00:00:06	Info	SENSOR	128	8	SENSOR_VERSION	Attached sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10640	2000-01-01 00:00:06	Info	SENSOR	128	9	CONFIGURED_SENSOR_VERSION	Product firmware sensor head firmware version	Information only		c4 ae 72 65 6e 67 69 6e 69 6f 20 6b 6c 61 69 64 61 20 c4 af 76 79 6b 6f
+10641	2000-01-01 00:00:06	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		00 00 20 10
+10642	2000-01-01 00:00:06	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 00 00 00 41 00 00 20 51
+10643	2000-01-01 00:00:00	Info	DEVICE_RESET	222	12					
+10644	2000-01-01 00:00:07	Info	RADIO_APP	144	8	RADIO_VARIANT	Radio variant used in this product	Information only		01
+10645	2000-01-01 00:00:01	Warning	DEVICE_STATUS_SET	202	56	RTC_NOT_VALID	HART cmd48 bit: REAL_TIME_CLOCK_NOT_VALID			
+10646	2000-01-01 00:00:01	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 00 00 00 00 20 10
+10647	2000-01-01 00:00:09	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10648	2000-01-01 00:00:09	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10649	2000-01-01 00:00:09	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10650	2000-01-01 00:00:09	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10651	2000-01-01 00:00:09	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10652	2000-01-01 00:00:09	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10653	2000-01-01 00:00:09	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10654	2000-01-01 00:00:09	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10655	2000-01-01 00:00:09	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10656	2000-01-01 00:00:09	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10657	2000-01-01 00:00:09	Warning	RADIO_APP	144	30	UNEXPECTED_TAG_NAME	Tag name is not as expected	Information only		
+10658	2000-01-01 00:00:09	Warning	RADIO_APP	144	29	UNEXPECTED_NETWORK_ID	Network ID is not as expected	Information only		
+10659	2000-01-01 00:00:24	Info	BOOT	63	8	BOOT_MASK	Boot completed	Information only		00 00 00 00
+10660	2000-01-01 00:00:24	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		3f 00 00 00 00 00 20 51 00 00 20 10
+10661	2000-01-01 00:00:25	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10662	2000-01-01 00:10:25	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10663	2000-01-01 00:13:16	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		00
+10664	2000-01-01 00:13:18	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10665	2000-01-01 00:23:18	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10666	2000-01-01 00:30:19	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		90 00 00 00 00 00 20 10 08 00 20 90
+10667	2000-01-01 00:30:36	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		00 00 00 00
+10668	2000-01-01 00:30:36	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 08 00 20 90 08 00 00 80
+10669	2000-01-01 00:00:10	Warning	DEVICE_STATUS_CLEAR	203	56	RTC_NOT_VALID	HART cmd48 bit: REAL_TIME_CLOCK_NOT_VALID			
+10670	2000-01-01 00:00:10	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 20 10 00 00 00 00
+10671	2000-01-01 00:00:18	Warning	CHANNEL_STATUS_SET	200	48	WARMUP1	HART cmd48 bit: WARMUP1			
+10672	2000-01-01 00:00:18	Warning	CHANNEL_STATUS_SET	200	49	WARMUP2	HART cmd48 bit: SENSOR_WARMUP			
+10673	2000-01-01 00:00:18	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 00 00 40 00 00 20
+10674	2000-01-01 00:20:17	Warning	CHANNEL_STATUS_CLEAR	201	48	WARMUP1	HART cmd48 bit: WARMUP1			
+10675,2000-01-01 00:20:17,Info,SENSOR_UAPMO,12289,6,DIAG_STATUS_CHANGED,Device status changed,,,be 00 00 00 40 00 00 20 00 00 00 00
+10676	2000-01-01 00:37:04	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		00
+10677	2000-01-01 00:37:06	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10678	2000-01-01 00:45:16	Warning	CHANNEL_STATUS_CLEAR	201	49	WARMUP2	HART cmd48 bit: SENSOR_WARMUP			
+10679	2000-01-01 00:47:06	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		01
+10680	2000-01-01 01:00:24	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10681	2000-01-01 01:10:40	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10682	2000-01-01 01:20:56	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10683	2000-01-01 01:31:12	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10684	2000-01-01 01:41:27	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10685	2000-01-01 01:51:43	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10686	2000-01-01 02:01:59	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10687	2000-01-01 02:12:14	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10688	2000-01-01 02:22:30	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10689	2000-01-01 02:32:46	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10690	2000-01-01 02:43:01	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10691	2000-01-01 02:53:07	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10692	2000-01-01 03:03:23	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10693	2000-01-01 03:13:39	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10694	2000-01-01 03:23:54	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10695	2000-01-01 03:34:10	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10696	2000-01-01 03:44:26	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10697	2000-01-01 03:54:41	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10698	2000-01-01 04:04:57	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10699	2000-01-01 04:15:13	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10700	2000-01-01 04:25:28	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10701	2000-01-01 04:35:34	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10702	2000-01-01 04:45:50	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10703	2000-01-01 04:56:06	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10704	2000-01-01 05:06:21	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10705	2000-01-01 05:16:37	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10706	2000-01-01 05:26:53	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10707	2000-01-01 05:37:08	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10708	2000-01-01 05:47:24	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10709	2000-01-01 05:57:40	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10710	2000-01-01 06:07:56	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10711	2000-01-01 06:18:11	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10712	2000-01-01 06:28:27	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10713	2000-01-01 06:38:43	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10714	2000-01-01 06:48:58	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+Event number	Timestamp	Severity	Object name	Object ID	Event ID	Event name	Description	Remedy	Readable	Raw
+10716	2000-01-01 07:09:30	Info	ISA100	132	213	IND_STOP_RECEIVED	ISA100 reset message recieved	Information only		04
+10717	2000-01-01 00:00:01	Info	BOOT	63	0	VERSION	Boot starting - product firmware version	Information only		44 45 4d 4f 2d 76 31 2e 30 2e 30 2d 61 31 62 32 63 33 64 34 65 35
+10718	2000-01-01 00:00:01	Info	BOOT	63	2	RESET_FLAG	Boot flags	Information only		03
+10719	2000-01-01 00:00:01	Info	OSPERF	110	1	TRACE	Task trace	Information only		45 6d 70 74 79 20 74 72 61 63 65 00
+10720	2000-01-01 00:00:04	Info	BATTERY	10	25	BOOT_VOLTAGE	Battery voltage at boot	Information only		00 00 00 00
+10721	2000-01-01 00:00:05	Info	SENSOR	128	3	SENSOR_TYPE_CHANGED	Discovered connected sensor head type changed	Information only		01
+10722	2000-01-01 00:00:05	Info	SENSOR	128	8	SENSOR_VERSION	Attached sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10723	2000-01-01 00:00:05	Info	SENSOR	128	9	CONFIGURED_SENSOR_VERSION	Product firmware sensor head firmware version	Information only		45 53 49 4f 53 2d 76 31 2e 32 39 2e 30 2e 31 31 32 2d 6d 61 73 74 65 72 2d 62 36 63 38 64 32 33 34 66 2d 32 30 32 33 2d 30
+10724	2000-01-01 00:00:06	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		00 00 20 10
+10725	2000-01-01 00:00:06	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 00 00 00 41 00 00 20 51
+10726	2000-01-01 00:00:00	Info	DEVICE_RESET	222	12					
+10727	2000-01-01 00:00:06	Info	RADIO_APP	144	8	RADIO_VARIANT	Radio variant used in this product	Information only		01
+10728	2000-01-01 00:00:01	Warning	DEVICE_STATUS_SET	202	56	RTC_NOT_VALID	HART cmd48 bit: REAL_TIME_CLOCK_NOT_VALID			
+10729	2000-01-01 00:00:01	Info	SENSOR_UAPMO	12289	6	DIAG_STATUS_CHANGED	Device status changed			be 00 00 00 00 00 00 00 00 00 20 10
+10730	2000-01-01 00:00:08	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10731	2000-01-01 00:00:08	Info	ISA100	132	1108	RADIO_STATE_CHANGED	ISA100 internal radio state changed	Information only		00 02
+10732	2000-01-01 00:00:08	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10733	2000-01-01 00:00:08	Info	RADIO_APP	144	13	SET_NETWORK_ID	Network ID is	Information only		01 00
+10734	2000-01-01 00:00:08	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10735	2000-01-01 00:00:08	Info	RADIO_APP	144	11	SET_EUI64	EUI64 is	Information only		8c 45 00 ff fe 6e d6 40
+10736	2000-01-01 00:00:08	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10737	2000-01-01 00:00:08	Info	RADIO_APP	144	10	SET_TAG	Tag is	Information only		41 52 4d 45 2d 30 30 32 32 00 00 00 00 00 00 00
+10738	2000-01-01 00:00:08	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10739	2000-01-01 00:00:08	Info	RADIO_APP	144	25	RADIO_VERSION	Radio firmware revision	Information only		52 31 2e 30 31 2e 31 35 00 00 00 00 00 00 00 00
+10740	2000-01-01 00:00:08	Warning	RADIO_APP	144	30	UNEXPECTED_TAG_NAME	Tag name is not as expected	Information only		
+10741	2000-01-01 00:00:08	Warning	RADIO_APP	144	29	UNEXPECTED_NETWORK_ID	Network ID is not as expected	Information only		
+10742	2000-01-01 00:00:24	Info	BOOT	63	8	BOOT_MASK	Boot completed	Information only		00 00 00 00
+10743	2000-01-01 00:00:24	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		3f 00 00 00 00 00 20 51 00 00 20 10
+10744	2000-01-01 00:00:24	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10745	2000-01-01 00:00:36	Info	BLUETOOTH	134	1	CONNECT	Bluetooth connected	Information only		42 6c 65 43 6f 6e 6e 65 63 74 00
+10746	2000-01-01 00:00:36	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		03
+10747	2000-01-01 00:00:36	Info	SENSOR	128	25	WCI_DIAG_STATUS_CHANGED	Sensor head device status changed	Information only		40 00 00 20
+10748	2000-01-01 00:00:36	Info	UAPMO	1	6	DIAG_STATUS_CHANGED	Device status changed	Information only		80 00 00 00 00 00 20 10 40 00 00 20
+10749	2000-01-01 00:03:10	Info	BLUETOOTH	134	2	DISCONNECT	Bluetooth disconnected	Information only		42 6c 65 44 69 73 63 6f 6e 6e 65 63 74 00
+10750	2000-01-01 00:03:10	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10751	2000-01-01 00:03:22	Info	BLUETOOTH	134	1	CONNECT	Bluetooth connected	Information only		42 6c 65 43 6f 6e 6e 65 63 74 00
+10752	2000-01-01 00:03:22	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		03
+10753	2000-01-01 00:04:42	Info	BLUETOOTH	134	2	DISCONNECT	Bluetooth disconnected	Information only		42 6c 65 44 69 73 63 6f 6e 6e 65 63 74 00
+10754	2000-01-01 00:04:42	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10755	2000-01-01 00:04:54	Info	BLUETOOTH	134	1	CONNECT	Bluetooth connected	Information only		42 6c 65 43 6f 6e 6e 65 63 74 00	UNEXPECTED_EXTRA_FIELD
+10756	2000-01-01 00:04:54	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		03
+10757	2000-01-01 00:05:59	Info	BLUETOOTH	134	2	DISCONNECT	Bluetooth disconnected	Information only		42 6c 65 44 69 73 63 6f 6e 6e 65 63 74 00
+10758	2000-01-01 00:05:59	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10759	2000-01-01 00:08:11	Info	BLUETOOTH	134	1	CONNECT	Bluetooth connected	Information only		42 6c 65 43 6f 6e 6e 65 63 74 00
+10760	2000-01-01 00:08:11	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		03
+10761	2000-01-01 00:08:17	Info	BLUETOOTH	134	2	DISCONNECT	Bluetooth disconnected	Information only		42 6c 65 44 69 73 63 6f 6e 6e 65 63 74 00
+10762	2000-01-01 00:08:17	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10763	2000-01-01 00:13:29	Info	BLUETOOTH	134	1	CONNECT	Bluetooth connected	Information only		42 6c 65 43 6f 6e 6e 65 63 74 00
+10764	2000-01-01 00:13:29	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		03
+10765	2000-01-01 00:14:05	Info	BLUETOOTH	134	2	DISCONNECT	Bluetooth disconnected	Information only		42 6c 65 44 69 73 63 6f 6e 6e 65 63 74 00
+10766	2000-01-01 00:14:05	Info	SERVICE	143	22	HMI_STATE_CHANGE	HMI state changed	Information only		02
+10767	2000-01-01 00:14:11	Info	BLUETOOTH	134	1	CONNECT	Bluetooth connected	Information only		42 6c 65 43 6f 6e 6e 65 63 74 00
